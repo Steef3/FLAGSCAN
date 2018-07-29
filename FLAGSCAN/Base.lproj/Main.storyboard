@@ -74,13 +74,28 @@
                     <view key="view" contentMode="scaleToFill" id="ZuU-C5-Nli">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="yEg-2j-iOH">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="jKm-iw-kDy" id="7ZV-OT-TUN"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yEg-2j-iOH" firstAttribute="top" secondItem="vCi-5D-xNh" secondAttribute="top" id="JrH-3a-P5p"/>
+                            <constraint firstItem="yEg-2j-iOH" firstAttribute="leading" secondItem="ZuU-C5-Nli" secondAttribute="leading" id="QLU-w6-acd"/>
+                            <constraint firstAttribute="trailing" secondItem="yEg-2j-iOH" secondAttribute="trailing" id="Uhg-nr-Ck5"/>
+                            <constraint firstItem="yEg-2j-iOH" firstAttribute="bottom" secondItem="vCi-5D-xNh" secondAttribute="bottom" id="fDo-xR-0Ax"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="vCi-5D-xNh"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="udC-Tr-9Yy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="628" y="134"/>
+            <point key="canvasLocation" x="628" y="133.5832083958021"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6A1-RM-dHD">
