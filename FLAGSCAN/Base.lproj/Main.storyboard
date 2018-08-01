@@ -42,6 +42,16 @@
                                     <segue destination="ixX-CI-9ii" kind="show" id="LDn-qq-5nk"/>
                                 </connections>
                             </button>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kTY-vt-fQa">
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <tabBarItem systemItem="favorites" id="Aj9-bZ-mXm"/>
+                                    <tabBarItem title="Settings" id="0EB-pX-Ys2"/>
+                                    <tabBarItem systemItem="more" id="4c4-ZT-aZ4"/>
+                                </items>
+                            </tabBar>
                         </subviews>
                         <color key="backgroundColor" red="0.63260147217630758" green="1" blue="0.41844465174482215" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -132,7 +142,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PFq-GO-C7z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1574" y="144"/>
+            <point key="canvasLocation" x="-202" y="901"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6A1-RM-dHD">
