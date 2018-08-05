@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0E7B343821177C5500283B84 /* FlagListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7B343721177C5500283B84 /* FlagListVC.swift */; };
+		3950A6202117839C00546ED8 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3950A61F2117839C00546ED8 /* SettingsVC.swift */; };
 		398CE2E4210CF7340066C1EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398CE2E3210CF7340066C1EB /* AppDelegate.swift */; };
 		398CE2E6210CF7340066C1EB /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398CE2E5210CF7340066C1EB /* HomeVC.swift */; };
 		398CE2E9210CF7340066C1EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 398CE2E7210CF7340066C1EB /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		0E7B343721177C5500283B84 /* FlagListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagListVC.swift; sourceTree = "<group>"; };
+		3950A61F2117839C00546ED8 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		398CE2E0210CF7340066C1EB /* FLAGSCAN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLAGSCAN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		398CE2E3210CF7340066C1EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		398CE2E5210CF7340066C1EB /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				398CE2EC210CF7340066C1EB /* LaunchScreen.storyboard */,
 				398CE2EF210CF7340066C1EB /* Info.plist */,
 				0E7B343721177C5500283B84 /* FlagListVC.swift */,
+				3950A61F2117839C00546ED8 /* SettingsVC.swift */,
 			);
 			path = FLAGSCAN;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E7B343821177C5500283B84 /* FlagListVC.swift in Sources */,
+				3950A6202117839C00546ED8 /* SettingsVC.swift in Sources */,
 				398CE2E6210CF7340066C1EB /* HomeVC.swift in Sources */,
 				398CE2E4210CF7340066C1EB /* AppDelegate.swift in Sources */,
 			);
