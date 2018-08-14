@@ -15,6 +15,8 @@
 		398CE2EB210CF7340066C1EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 398CE2EA210CF7340066C1EB /* Assets.xcassets */; };
 		398CE2EE210CF7340066C1EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 398CE2EC210CF7340066C1EB /* LaunchScreen.storyboard */; };
 		398CE2F9210CF7340066C1EB /* FLAGSCANUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398CE2F8210CF7340066C1EB /* FLAGSCANUITests.swift */; };
+		39A5149A2122386F000CC7C8 /* DailyFlagVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A514992122386F000CC7C8 /* DailyFlagVC.swift */; };
+		39A5149C21223904000CC7C8 /* ScanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A5149B21223904000CC7C8 /* ScanVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		398CE2F4210CF7340066C1EB /* FLAGSCANUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLAGSCANUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		398CE2F8210CF7340066C1EB /* FLAGSCANUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLAGSCANUITests.swift; sourceTree = "<group>"; };
 		398CE2FA210CF7340066C1EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39A514992122386F000CC7C8 /* DailyFlagVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyFlagVC.swift; sourceTree = "<group>"; };
+		39A5149B21223904000CC7C8 /* ScanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 				398CE2EF210CF7340066C1EB /* Info.plist */,
 				0E7B343721177C5500283B84 /* FlagListVC.swift */,
 				3950A61F2117839C00546ED8 /* SettingsVC.swift */,
+				39A514992122386F000CC7C8 /* DailyFlagVC.swift */,
+				39A5149B21223904000CC7C8 /* ScanVC.swift */,
 			);
 			path = FLAGSCAN;
 			sourceTree = "<group>";
@@ -203,10 +209,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39A5149A2122386F000CC7C8 /* DailyFlagVC.swift in Sources */,
 				0E7B343821177C5500283B84 /* FlagListVC.swift in Sources */,
 				3950A6202117839C00546ED8 /* SettingsVC.swift in Sources */,
 				398CE2E6210CF7340066C1EB /* HomeVC.swift in Sources */,
 				398CE2E4210CF7340066C1EB /* AppDelegate.swift in Sources */,
+				39A5149C21223904000CC7C8 /* ScanVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

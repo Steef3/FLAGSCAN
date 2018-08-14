@@ -62,10 +62,10 @@
             </objects>
             <point key="canvasLocation" x="-202" y="134"/>
         </scene>
-        <!--View Controller-->
+        <!--ScanVC-->
         <scene sceneID="rAz-WS-ZmK">
             <objects>
-                <viewController id="UrB-Pf-jLf" sceneMemberID="viewController">
+                <viewController id="UrB-Pf-jLf" customClass="ScanVC" customModule="FLAGSCAN" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WJt-Vh-nWX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -191,10 +191,10 @@
             </objects>
             <point key="canvasLocation" x="-202" y="2486"/>
         </scene>
-        <!--View Controller-->
+        <!--Daily FlagVC-->
         <scene sceneID="6A1-RM-dHD">
             <objects>
-                <viewController id="ixX-CI-9ii" sceneMemberID="viewController">
+                <viewController id="ixX-CI-9ii" customClass="DailyFlagVC" customModule="FLAGSCAN" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eyw-2f-ilH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
